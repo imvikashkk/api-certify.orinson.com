@@ -23,6 +23,7 @@ export const getCertificateById = async (req, res) => {
          passing_year: d.passing_year,
          job_type: d.job_type,
          job_mode: d.job_mode,
+         job_role: d.job_role,
          stipend_salary: d.stipend_salary,
          start_date: formatDate(d.start_date),
          end_date: formatDate(d.end_date),
